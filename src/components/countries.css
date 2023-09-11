@@ -1,0 +1,24 @@
+.country{
+    padding: 15px;
+    margin: 10px;
+    border: 2px solid skyblue;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+}
+.country img{
+
+    width: 250px;
+}
+.country h4{
+    font-size: 2rem;
+}
+
+.countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
